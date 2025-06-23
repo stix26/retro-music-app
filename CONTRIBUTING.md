@@ -32,7 +32,7 @@ We welcome contributions in the following areas:
 
 1. **Fork the Repository**
    ```bash
-   git clone https://github.com/yourusername/retro-music-app.git
+   git clone https://github.com/stix26/retro-music-app.git
    cd retro-music-app
    ```
 
@@ -285,8 +285,8 @@ describe('Preset Management', () => {
 ## 📞 Getting Help
 
 ### **Resources**
-- **Issues**: [GitHub Issues](https://github.com/yourusername/retro-music-app/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/retro-music-app/discussions)
+- **Issues**: [GitHub Issues](https://github.com/stix26/retro-music-app/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/stix26/retro-music-app/discussions)
 - **Documentation**: README.md and inline comments
 
 ### **Questions**

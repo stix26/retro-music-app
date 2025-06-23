@@ -7,7 +7,7 @@ This guide covers how to deploy the Retro Music App to various hosting platforms
 ### **1. Local Development (Recommended for Testing)**
 ```bash
 # Clone and setup
-git clone https://github.com/yourusername/retro-music-app.git
+git clone https://github.com/stix26/retro-music-app.git
 cd retro-music-app
 npm install
 npm run init-db
@@ -379,4 +379,4 @@ railway variables
 
 ---
 
-**Need help?** Check the [Issues](https://github.com/yourusername/retro-music-app/issues) or create a new one for deployment-specific problems. 
+**Need help?** Check the [Issues](https://github.com/stix26/retro-music-app/issues) or create a new one for deployment-specific problems. 
