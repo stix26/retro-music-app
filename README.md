@@ -328,7 +328,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Issues**: [GitHub Issues](https://github.com/yourusername/retro-music-app/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/yourusername/retro-music-app/discussions)
-- **Email**: your.email@example.com
+- **Email**: sseymens@gmail.com
 
 ---
 
