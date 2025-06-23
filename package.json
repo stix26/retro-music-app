@@ -16,12 +16,19 @@
     "cors": "^2.8.5",
     "body-parser": "^1.20.2",
     "path": "^0.12.7",
-    "node-fetch": "^2.6.7"
+    "node-fetch": "^2.6.7",
+    "express-rate-limit": "^7.5.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
   },
-  "keywords": ["synthesizer", "music", "retro", "sqlite", "database"],
+  "keywords": [
+    "synthesizer",
+    "music",
+    "retro",
+    "sqlite",
+    "database"
+  ],
   "author": "Retro Music App",
   "license": "MIT"
 } 
