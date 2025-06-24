@@ -6,6 +6,10 @@ A beautiful, feature-rich retro synthesizer web application with a complete SQLi
 ![Database](https://img.shields.io/badge/Database-SQLite-green?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
+## 🎬 Demo Video
+
+Watch a video demo of the Retro Music App on [Google Drive](https://drive.google.com/file/d/1TsUhVEIPh-GRLGhxguT9XSxKzyUjckDm/view?usp=sharing).
+
 ## 🎹 What This Project Does
 
 This is a **full-stack web application** that combines:
