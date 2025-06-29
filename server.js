@@ -4,6 +4,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const path = require('path');
 const fs = require('fs');
+const rateLimit = require('express-rate-limit');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -242,8 +243,14 @@ app.get('/api/compositions/:id', (req, res) => {
     });
 });
 
+// Rate limiter for the main HTML file
+const mainPageLimiter = rateLimit({
+    windowMs: 15 * 60 * 1000, // 15 minutes
+    max: 100, // Limit each IP to 100 requests per windowMs
+});
+
 // Serve the main HTML file
-app.get('/', (req, res) => {
+app.get('/', mainPageLimiter, (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
